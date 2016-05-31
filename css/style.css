@@ -1,0 +1,134 @@
+/*** 第一页 ***/
+div.onePage{
+	overflow:hidden;
+}
+div.onePage_rightText{
+	width:46px;
+	line-height:42px;
+	margin-right:15%;
+	margin-top:calc(10%);
+	margin-top:-webkit-calc(10%);
+	margin-top: -moz-calc(10%);
+	color:#000;
+	float:right;
+	font-size:2.2rem;
+	font-family:"宋体";
+	border-right:2px solid #000;
+}
+.onePage_Design{
+	margin-top:50px;
+	color:#000;
+	font-size:1rem;
+	text-align:center;
+}
+/*** 第二页 ***/
+.threePageImg{
+	width:100%;
+	height:68%;
+	display:block;
+}
+.threePage{
+	line-height:60px;
+	margin-top:40px;
+	margin-left:10px;
+	color:#000;
+	font-size:1.6rem;
+	font-family:"宋体";
+}
+/*** 第三页 ***/
+.twoPage_TopBox{
+	height:50%;
+	position:relative;
+	text-align:center;
+}
+.twoPage_TopBox_bagImg{
+	width:100%;
+	height:100%;
+	display:block;
+}
+.twoPage_TopBox_TXImg{
+	margin:0 auto;
+	color:#fff;
+	font-size:2rem;
+	position:absolute;
+	top:21%;
+	left:50%;
+	margin-left:-60px;
+}
+.twoPage_TopBox_TXImg img{
+	width:120px;
+	height:120px;
+	display:block;
+	margin-bottom:10px;
+	border-radius:50%;
+	
+	-webkit-transition:border-radius 2s,-webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+	-moz-transition:border-radius 2s,-webkit-transform 2s;
+	
+	transition:border-radius 2s,transform 2s;
+}
+.twoPage_TopBox_TXImg img:hover{
+	border-radius:8%;
+	-webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+	-moz-transform: rotate(360deg);
+	transform:rotate(360deg);
+}
+.twoPage_cntBox{
+	padding-left:50px;
+	padding-right:10px;
+	margin-top: 55px;
+	overflow:hidden;
+}
+.twoPage_cntBox li div{
+	color:#000;
+	font-size:1.2rem;
+	font-family:"宋体";
+}
+.twoPage_cntBox li div span{
+	color:#0db4f1;
+	font-family:arial;
+}
+.twoPage_cntBox_Left{
+	float:left;
+}
+.twoPage_cntBox_Right{
+	float:right;
+}
+.twoPage_btmBox img{
+	width:100%;
+	height:40px;
+	margin-top:55px;
+	display:block;
+}
+/*** 第四页 ***/
+/*** 第五页 ***/
+.fivePage_A{
+	font-size:1.4rem;
+	font-family:"宋体";
+}
+.fivePage_A span{
+	font-size:1.8rem;
+}
+.fivePage_A strong{
+	font-size:2.4rem;
+}
+/*** 第七页 ***/
+.sevenPage{
+	font-size:1.6rem;
+	font-family:"宋体";
+}
+.sevenPage span{
+	font-size:2rem;
+}
+/*** 第八页 ***/
+.eightPage{
+	font-size:1.6rem;
+	font-family:"宋体";
+}
+.eightPage span{
+	font-size:1.9rem;
+}
+/*** 第九页 ***/
+.ninePage{
+	font-size:1.5rem;
+}
